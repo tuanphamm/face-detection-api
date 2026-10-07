@@ -23,6 +23,7 @@ venv/
 .vscode/
 
 # Test files
+test.py
 test*.jpg
 result.jpg
 *.cache
