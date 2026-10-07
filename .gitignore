@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+
+# Models
+*.pt
+
+# Training outputs
+runs/
+
+# Datasets
+dataset_v1/
+dataset_v2/
+dataset_enriched/
+add_on_data_v1/
+
+# Environment
+.env
+venv/
+.venv/
+
+# VSCode
+.vscode/
+
+# Test files
+test*.jpg
+result.jpg
+*.cache
+
+# Git test repo
+github_push_test/
