@@ -1,0 +1,39 @@
+{
+    "image_path": "/tmp/tmpabpvmybg.jpg",
+    "num_detections": 3,
+    "detections": [
+        {
+            "class_id": 8,
+            "class_name": "nose",
+            "confidence": 0.8192,
+            "bbox": [
+                154.56,
+                290.87,
+                242.34,
+                381.65
+            ]
+        },
+        {
+            "class_id": 1,
+            "class_name": "eye_occluded",
+            "confidence": 0.8024,
+            "bbox": [
+                204.73,
+                234.4,
+                283.96,
+                281.5
+            ]
+        },
+        {
+            "class_id": 1,
+            "class_name": "eye_occluded",
+            "confidence": 0.5233,
+            "bbox": [
+                70.12,
+                284.87,
+                151.15,
+                330.9
+            ]
+        }
+    ]
+}
