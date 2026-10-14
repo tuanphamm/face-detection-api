@@ -1,4 +1,4 @@
-FROM face-detection-api:deploy_base.v1
+FROM tuanphammds/face-detection-api:deploy_base.v1
 
 WORKDIR /app
 
