@@ -25,7 +25,7 @@ app = FastAPI()
 
 # Load model (the heart of everything - model is in here)
 engine = InferenceEngine(
-    "/home/pmtuan/workspace/face_detection_api/models/face_detector.pt"
+    "./models/face_detector.pt"
 )
 
 

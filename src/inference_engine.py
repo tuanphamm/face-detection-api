@@ -61,7 +61,7 @@ if __name__ == "__main__":
 
 
     engine = InferenceEngine(
-        "/home/pmtuan/workspace/10_class_det/runs/detect/runs/yolo11s_baseline/weights/best.pt"
+        "./models/face_detector.pt"
     )
 
     prediction = engine.predict(

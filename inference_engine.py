@@ -61,11 +61,11 @@ if __name__ == "__main__":
 
 
     engine = InferenceEngine(
-        "/home/pmtuan/workspace/face_detection_api/models/face_detector.pt"
+        "./models/face_detector.pt"
     )
 
-    prediction = engine.predict(
-        "test3.jpg"
-    )
+    # prediction = engine.predict(
+    #     "test3.jpg"
+    # )
 
-    print(prediction)
+    # print(prediction)
