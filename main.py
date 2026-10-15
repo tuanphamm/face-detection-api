@@ -25,7 +25,7 @@ app = FastAPI()
 
 # Load model (the heart of everything - model is in here)
 engine = InferenceEngine(
-    "./runs/detect/runs/yolo11s_v2_img800/weights/best.pt"
+    "/home/pmtuan/workspace/face_detection_api/models/face_detector.pt"
 )
 
 
